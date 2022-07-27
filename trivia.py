@@ -1,3 +1,6 @@
+#Uses nextcord.py for creating button class
+#nextcord.ButtonStyle
+#nextcord.ui.View
 class Trivia(View):
   def __init__(self, ctx, correct, msg):
     super().__init__(timeout=30)
